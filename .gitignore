@@ -1,0 +1,72 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+coverage/
+.out/
+.next/
+.cache/
+.tmp/
+temp/
+
+# Vite / frontend
+frontend/dist/
+frontend/.vite/
+
+# IDE / editor
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Runtime / PID files
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Test artifacts
+.nyc_output/
+junit.xml
+
+# Package manager caches
+.npm/
+.pnpm-store/
+.yarn/
+.yarn-cache/
+
+# Local database / sqlite if used later
+*.sqlite
+*.sqlite3
+*.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Optional: ignore local uploads
+uploads/
